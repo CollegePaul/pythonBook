@@ -1,0 +1,115 @@
+\documentclass[12pt,a4paper,violet]{bbe}
+\usepackage{blindtext}
+\usepackage{listings}
+\usepackage{xcolor}
+\begin{document}
+	
+	%New colors defined below
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{codebackcolour}{rgb}{0.95,0.95,0.92}
+
+  	
+    %added be me.
+    %Code listing style named "mystyle"
+    \lstdefinestyle{mystyle}{
+      backgroundcolor=\color{codebackcolour},
+      commentstyle=\color{codegreen},
+      keywordstyle=\color{magenta},
+      numberstyle=\tiny\color{codegray},
+      stringstyle=\color{codepurple},
+      basicstyle=\ttfamily\footnotesize,
+      breakatwhitespace=false,         
+      breaklines=true,                 
+      captionpos=b,                    
+      keepspaces=true,                 
+      numbers=left,                    
+      numbersep=5pt,                  
+      showspaces=false,                
+      showstringspaces=false,
+      showtabs=false,                  
+      tabsize=2
+    }
+
+
+
+
+	\chapter{Setting up}
+	\section{Variables}
+	This is where we start
+	
+	
+    
+  
+    
+    
+    %"mystyle" code listing set
+    \lstset{style=mystyle}
+   
+
+	
+	
+	\lstinputlisting[language=Python]{python/watermellon.py}
+	
+	
+	
+	\begin{figure}[h]
+        \centering
+        \includegraphics[width=0.25\textwidth]{icons/python.png}
+        \caption{A python Logo}
+        \label{fig:mesh1}
+    \end{figure}
+    
+    \begin{lstlisting}
+    print("Hello World")\end{lstlisting}
+	
+	\begin{definition}
+	You can always use an online editor
+	\end{definition}
+	
+	\begin{theorem}
+	You can always use an online editor
+	\end{theorem}
+	
+	\begin{solution}
+	You can always use an online editor
+	\end{solution}
+	
+	\begin{activity}
+	This is an activity
+	\end{activity}
+	
+	\begin{example}
+	this is an example
+	\end{example}
+	
+	
+	\includegraphics[scale=0.6]{icons/python.png}
+	 
+	
+	\begin{property}
+	    this is a property
+	\end{property}
+
+    \begin{hint}
+        this is a hint
+    \end{hint}
+	
+	\begin{remark}
+	This is remark this is me
+	\end{remark}
+	
+	\begin{mynote}
+	this is a simple remark
+	\end{mynote}
+	
+    
+    
+	\chapter{Setting up}
+	\section{Variables}
+	
+	
+	
+	\blinddocument
+\end{document}
